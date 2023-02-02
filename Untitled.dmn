@@ -12,6 +12,14 @@
       <dmn:requiredInput href="#_B9A0A6BA-0293-46DB-B155-6DA8BDADA682"/>
     </dmn:informationRequirement>
   </dmn:decision>
+  <dmn:inputData id="_11DB564F-3172-4E22-B9C4-F7783F1F568A" name="InputData-2">
+    <dmn:extensionElements/>
+    <dmn:variable id="_478FA48F-74A2-4B4E-8C89-AAA04139892B" name="InputData-2"/>
+  </dmn:inputData>
+  <dmn:decision id="_CE186567-2D65-4E93-8CEE-FA958CD961CF" name="Decision-2">
+    <dmn:extensionElements/>
+    <dmn:variable id="_E9706148-31FF-4680-A92B-E1C48F7A93A5" name="Decision-2"/>
+  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_88527620-6557-4C2E-9DB6-330701A04C0B" name="DRG">
       <di:extension>
@@ -33,6 +41,24 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="378" y="231" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_11DB564F-3172-4E22-B9C4-F7783F1F568A" dmnElementRef="_11DB564F-3172-4E22-B9C4-F7783F1F568A" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="635" y="175" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_CE186567-2D65-4E93-8CEE-FA958CD961CF" dmnElementRef="_CE186567-2D65-4E93-8CEE-FA958CD961CF" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="478" y="98" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_F96068BB-E212-4A46-B7AC-2162559CFF5A-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_F96068BB-E212-4A46-B7AC-2162559CFF5A">

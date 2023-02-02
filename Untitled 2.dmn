@@ -5,6 +5,17 @@
     <dmn:extensionElements/>
     <dmn:variable id="_406F56F6-1CF5-4507-AEA6-D7482B7B46B9" name="InputData-1"/>
   </dmn:inputData>
+  <dmn:knowledgeSource id="_D673BFDF-65AC-4E8B-9F1E-8A63B36D63FA" name="KnowledgeSource-1" locationURI="">
+    <dmn:extensionElements/>
+    <dmn:type/>
+  </dmn:knowledgeSource>
+  <dmn:decision id="_FA9BDF1F-1FBF-45E4-A721-AC8E003325AE" name="Decision-1">
+    <dmn:extensionElements/>
+    <dmn:variable id="_C546E5FE-CB22-4D2D-B97C-29FB59EA8407" name="Decision-1"/>
+  </dmn:decision>
+  <dmn:textAnnotation id="_015F19E3-4457-48CC-8E9D-D5EBA69B7A29" textFormat="text/plain">
+    <dmn:text>TextAnnotation-1</dmn:text>
+  </dmn:textAnnotation>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_CCB130A6-39F9-4621-80FA-3FD057ABEB73" name="DRG">
       <di:extension>
@@ -16,7 +27,34 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="679" y="253" width="100" height="50"/>
+        <dc:Bounds x="476" y="384" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_D673BFDF-65AC-4E8B-9F1E-8A63B36D63FA" dmnElementRef="_D673BFDF-65AC-4E8B-9F1E-8A63B36D63FA" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="535" y="196" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_FA9BDF1F-1FBF-45E4-A721-AC8E003325AE" dmnElementRef="_FA9BDF1F-1FBF-45E4-A721-AC8E003325AE" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="267" y="108" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_015F19E3-4457-48CC-8E9D-D5EBA69B7A29" dmnElementRef="_015F19E3-4457-48CC-8E9D-D5EBA69B7A29" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="331" y="272" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
     </dmndi:DMNDiagram>
