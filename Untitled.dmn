@@ -20,10 +20,30 @@
     <dmn:extensionElements/>
     <dmn:variable id="_E9706148-31FF-4680-A92B-E1C48F7A93A5" name="Decision-2"/>
   </dmn:decision>
+  <dmn:inputData id="_81C906F0-5315-46E3-8C75-28C7EF198C4C" name="InputData-3">
+    <dmn:extensionElements/>
+    <dmn:variable id="_4CF7A61F-A44E-4732-8D7D-1F02F3717891" name="InputData-3"/>
+  </dmn:inputData>
+  <dmn:businessKnowledgeModel id="_49912AA0-7624-4E7B-B04D-BFA20C991480" name="BusinessKnowledgeModel-1">
+    <dmn:extensionElements/>
+    <dmn:variable id="_13F84854-79C0-4587-8D39-1D936E616356" name="BusinessKnowledgeModel-1"/>
+    <dmn:encapsulatedLogic id="_17EC226F-A7AC-4EF0-89FB-A7AF6A956F66" kind="FEEL">
+      <dmn:literalExpression id="_F083F711-0C2C-470C-8DBA-D867EF90ADE8">
+        <dmn:text/>
+      </dmn:literalExpression>
+    </dmn:encapsulatedLogic>
+  </dmn:businessKnowledgeModel>
+  <dmn:decisionService id="_3778FD59-B09D-490B-B6D7-C8957B977933" name="DecisionService-1">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D59F11C3-2F87-4292-B48A-2A34C4D796C0" name="DecisionService-1"/>
+  </dmn:decisionService>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_88527620-6557-4C2E-9DB6-330701A04C0B" name="DRG">
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_F083F711-0C2C-470C-8DBA-D867EF90ADE8"/>
+          <kie:ComponentWidths dmnElementRef="_17EC226F-A7AC-4EF0-89FB-A7AF6A956F66"/>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-drg-_B9A0A6BA-0293-46DB-B155-6DA8BDADA682" dmnElementRef="_B9A0A6BA-0293-46DB-B155-6DA8BDADA682" isCollapsed="false">
         <dmndi:DMNStyle>
@@ -60,6 +80,37 @@
         </dmndi:DMNStyle>
         <dc:Bounds x="478" y="98" width="100" height="50"/>
         <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_81C906F0-5315-46E3-8C75-28C7EF198C4C" dmnElementRef="_81C906F0-5315-46E3-8C75-28C7EF198C4C" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="731" y="72" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_49912AA0-7624-4E7B-B04D-BFA20C991480" dmnElementRef="_49912AA0-7624-4E7B-B04D-BFA20C991480" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="774" y="293" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_3778FD59-B09D-490B-B6D7-C8957B977933" dmnElementRef="_3778FD59-B09D-490B-B6D7-C8957B977933" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="1008" y="186" width="200" height="200"/>
+        <dmndi:DMNLabel/>
+        <dmndi:DMNDecisionServiceDividerLine>
+          <di:waypoint x="1008" y="286"/>
+          <di:waypoint x="1208" y="286"/>
+        </dmndi:DMNDecisionServiceDividerLine>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-drg-_F96068BB-E212-4A46-B7AC-2162559CFF5A-AUTO-SOURCE-AUTO-TARGET" dmnElementRef="_F96068BB-E212-4A46-B7AC-2162559CFF5A">
         <di:waypoint x="428" y="361"/>
